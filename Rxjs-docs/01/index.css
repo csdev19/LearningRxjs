@@ -1,0 +1,19 @@
+.flex {
+    display: flex;
+  }
+  #cuadritoJs {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cuadritoRx {
+  width: 100px;
+  height: 100px;
+  background: #c2185b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

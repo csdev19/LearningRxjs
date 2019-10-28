@@ -1,0 +1,47 @@
+:root {
+  --color-rx: #c2185b;
+  --w-rx: 0px;
+  --color-js: yellow;
+  --w-js: 0px;
+}
+
+
+.flex {
+    display: flex;
+}
+
+#cuadritoJs {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#cuadritoRx {
+  width: 100px;
+  height: 100px;
+  background: #c2185b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.lineaJS {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+  width: var(--w-js);
+  background: var(--color-js);
+}
+
+.lineaRX {
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  height: 50px;
+  width: var(--w-rx);
+  background: var(--color-rx);
+}
