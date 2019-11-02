@@ -1,0 +1,29 @@
+/* :root {
+}
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+.flex {
+    display: flex;
+}
+#canvasJs {
+    background-color: red;
+    width: 50%;
+    height: 100vh;    
+}
+
+
+#canvasRx {
+    background-color: yellow;
+    width: 50%;
+    height: 100vh;
+}
+
+.marciano {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}

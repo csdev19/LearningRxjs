@@ -1,0 +1,40 @@
+:root {
+  --color-rx: #c2185b;
+  --color-js: #ffff00;
+}
+
+
+.flex {
+    display: flex;
+}
+
+#cuadritoJs {
+  width: 200px;
+  height: 200px;
+  background: var(--color-js);
+  justify-content: center;
+  align-items: center;
+}
+
+
+#cuadritoRx {
+  width: 200px;
+  height: 200px;
+  background: var(--color-rx);
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+.aligntext {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerp {
+  text-align: center;
+}
